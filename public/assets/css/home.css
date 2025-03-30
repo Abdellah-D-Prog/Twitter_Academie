@@ -1,0 +1,150 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #000;
+    border-right: 1px solid #E05353;
+}
+
+.main-content {
+    border-right: 1px solid #E05353;
+}
+
+.logo-img-home {
+    height: 85px;
+    width: auto;
+    margin-bottom: 20%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fw-bold {
+    color: #E05353;
+}
+
+.sidebar .text-muted,
+.main-content .text-muted, 
+.text-muted {
+    color: #b1b1b1 !important;
+    margin-right: 20px;
+}
+
+.showmore {
+    border-bottom: 1px solid #E05353;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #b1b1b1 !important;
+}
+
+.nav-tabs {
+    border-right: 1px solid #E05353;
+}
+
+.nav-tabs .nav-link {
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+
+.post-input {
+    background-color: transparent !important;
+    border: none;
+    color: #fff;
+    resize: none;
+}
+
+.post-input:focus {
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.post-actions {
+    border-top: 1px solid #E05353;
+    padding-top: 10px;
+}
+
+.btn-primary {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    font-weight: 500;
+    width: 20% !important;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #d0d0d0 !important;
+}
+
+.post-image {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.follow-btn {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    font-weight: 400;
+    width: 20% !important;
+}
+
+.search-input {
+    border: 1px solid #E05353;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+.search-input:focus {
+    color: #000000;
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-tabs .nav-item {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.border-secondary {
+    border-color: #E05353 !important;
+}
+
+.p-3, .mb-3, .border-bottom {
+    border-color: #E05353 !important;
+}
+
+.bg-dark {
+    border: 1px solid #E05353;
+    background-color: #000000 !important;
+}
+
+@media (max-width: 768px) {
+    .sidebar, .main-content, .col-md-3 {
+        width: 100%;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
